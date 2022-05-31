@@ -10,10 +10,10 @@
 <body>
     <h1>UPLOAD DE ARQUIVOS</h1>
     <ul>
-        <li><a href="imagens.php">imagens</a></li>
-        <li><a href="documentos.php">documentos</a></li>
-        <li><a href="audio.php">&aacute;udio</a></li>
-        <li><a href="video.php">v&iacute;deo</a></li>
+        <li><a href="imagens.php"><img src="img/iconmonstr-picture-19-240.png"></a></li>
+        <li><a href="documentos.php"><img src="img/iconmonstr-file-thin-240.png"></a></li>
+        <li><a href="audio.php"><img src="img/iconmonstr-audio-21-240.png"></a></li>
+        <li><a href="video.php"><img src="img/iconmonstr-video-thin-240.png"></a></li>
     </ul>
 </body>
 </html>

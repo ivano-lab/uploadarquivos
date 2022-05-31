@@ -18,6 +18,7 @@ session_start();
         unset($_SESSION['msg']);
     }
     ?>
+    <h4>Apenas arquivos em formato .jpg, .png e .gif</h4>
     <form method="POST" action="processa.php" enctype="multipart/form-data">
        <table border=0>
             <tr>
@@ -26,11 +27,10 @@ session_start();
             </tr>
             <tr>
                 <td>Selecione o arquivo:</td>
-                <td><input type="file" name="imagem"></td>
+                <td><input type="file" accept=".jpg, .png, .gif" name="imagem"></td>
             </tr>
             <tr>
                 <td><input type="submit" name="sendimg" value="cadastrar"></td>
-                <td>Apenas arquivos em formato .pdf/a</td>
             </tr>
         </table>
         <div class="aviso"></div>
