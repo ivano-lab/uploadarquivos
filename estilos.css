@@ -6,3 +6,7 @@ a {
     text-decoration: none;
     color: black;
 }
+
+td {
+    padding: 10px;
+}
